@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="Accueil.css"/>
+		<link rel="stylesheet" href="Newsletter.css"/>
+		<title> Passez des vacances à Barcelone </title>
+	</head>
+	<body>
+		<header>
+			<h1 id ="entete">Visitez Barcelone autrement</h1>		
+			<nav >
+				<ul>	
+					<li id="logo"><a href="index.html"><img id="imglogo" src="logo.png" width="150" height="140" alt="bouton accueil"></a></li>				
+				
+					<li  class="box" id="menu"><a class="clic" href="lieux.html">Les sites culturels</a></li>
+					<li class="box" id="menu1"><a class="clic" href="gastronomie.html">Gastronomie</a></li>
+					<li class="box" id="menu3"><a class="clic" href="sports.html">Une ville de sports</a></li>				
+					<li class="box" id="menu4"><a class="clic" href="Newsletter.html">Newsletter</a></li>
+					<li id="menu2"></li>
+				</ul>			
+			</nav>
+		</header>
+		<br><br><br>
+		<main>	
+			<section id="formulaire">
+			<h3>Si vous souhaitez être au courant des dernières actualités à Barcelone et recevoir des offres exclusives en prévision de votre séjour, créez-vous un compte sur notre site!</h3>		
+			<article id="champform">		
+			
+			<form action="enregistrer.html" method="post">
+				<p>
+					<label for="Mr">Mr</label> 
+					<input checked type="radio" name="genre" id="Mr" value="Mr"> 
+					<label for="Mme">Mme</label> 
+					<input type="radio" name="genre" id="Mme" value="Mme">	
+					<label for="Mlle">Mlle</label> 
+					<input type="radio" name="genre" id="Mlle" value="Mlle">	
+				</p>
+				<p>		    
+					<label for="prénom">Prénom</label>
+					<input required id="prénom" placeholder="Entrez votre prénom" autofocus>
+				</p>
+				<p>
+				    	<label for="nom">Nom</label>
+				    	<input required id="nom" placeholder="Entrez votre nom">
+				</p>
+				<p>
+					<label for="dates">Date de naissance</label>
+					<input  required type ="date" name=dates id="dates">
+
+				</p>
+				<p>	    
+					<label for="mail">Adresse mail</label> 
+					<input required type="email" id="mail">
+				</p>
+				<p>	    
+					<label for="mdp">Mot de passe (Veuillez saisir au moins un chiffre) </label> 
+					<input required type="password" id="mdp" pattern="\<|.*[1-9]{1,}.*|\>">
+				</p>
+
+			   	<p>
+					<label for="rubrique">Votre rubrique préférée</label>
+					<select name="Rubrique" id="rubrique">
+						<option value="-1">Choisissez une rubrique</option>
+						<option value="1">Les sites culturels</option>
+						<option value="2">Gastronomie</option>
+						<option value="3">Une ville de sports</option>
+					</select>
+			   	</p>
+			   
+			   	<p>
+					<input type="checkbox" name="choix1" value="1"> J'accepte de recevoir des offres provenant de partenaires commerciaux.
+			    	</p>
+			    	<p>
+			   		 <input type="checkbox" name="choix2" value="2"> J'accepte que des photos sur lesquelles je suis présente soient publiées sur le site.
+			    	</p>
+				<p>
+			    		<input required type="checkbox" name="choix3" value="3"> J'ai lu et j'accepte les conditions générales d'utilisations et les lois relatives à la protection de la Vie Privée.
+			    	</p>
+			   	<br><br>
+			    	<p>
+					<label for="notes">N'hésitez pas à laisser un petit commentaire sur un de vos voyages à Barcelone,<br> partager votre expérience avec nous et nous informer d'autres lieux à visiter! (Limité à 1000 caractères)</label>
+					<br>
+					<textarea cols ="30" rows="5" name="notes" id=notes maxlength="1000"></textarea>
+			    	</p>
+						     	
+					<label for="eval">Une petite note sur la ville de Barcelone si vous l'avez déjà visitée </label><br>
+					<output name="amount" for="eval">0</output>			
+					<input type="range" name="noteComplete" min="0" max="20" step="1" value="10" id="eval">
+					<output name="amount" for="eval">20</output>
+			     	<p>
+					<input type="submit" value="Soumettre" id="bouton">
+			   	</p>
+				</form>
+				</article>
+			</section> 
+		</main>
+		<footer id ="footer">
+			<address>Contact</address>
+			<a href="index.html">cabannes@yahoo.fr</a>
+			<p align="right"><i >Copyright Jordy CABANNES</i></p>
+
+		</footer>
+	</body>
+
+</html>

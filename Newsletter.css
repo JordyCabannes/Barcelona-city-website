@@ -1,0 +1,50 @@
+
+
+#formulaire
+{
+	display : block;
+	position : absolute;
+	margin-top : 125px;
+	background-color:#FFFFFF;
+	font-family : Arial;
+	color : #FF8C00;
+	text-align : center;
+	width : 1280px;
+
+	
+}
+
+#champform
+{
+	display : block
+	position : absolute;
+	border:15px solid #FF8C00;
+	border-radius : 20px 20px 20px 20px;
+	margin-top : 10px;
+	margin-left : 350px;
+	margin-bottom : 100px;
+	display : block
+	margin-right : 350px;
+
+	width: 600px;
+	padding : 20px 20px 20px 20px;
+	text-align : justify;
+   	
+}
+
+#bouton
+{
+	margin-left : 270px;
+	margin-right : 270px;
+}
+
+h3
+{
+	
+	text-align : center;
+}
+
+#footer
+{
+	margin-top : 1050px;
+}

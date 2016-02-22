@@ -1,0 +1,151 @@
+#debut
+{
+	position : absolute;
+	text-align : center;
+	font-family : Arial;
+	font-size : 20px;
+	color : #FF8C00;
+	margin-top : 80px;
+	width : 1240px;
+}
+
+table, th, td
+{
+	border-collapse : collapse;
+}
+
+.tableGastro
+{
+	margin-left : 100px;
+	margin-right : 100px;
+}
+
+#tapas
+{
+	border : 10px solid #FF8C00;
+	margin-top : 100px;
+	text-align: justify;
+	font-family : Arial;
+	color : #FF8C00;
+}
+
+th
+{
+	text-align : center;
+}
+
+.thtapas
+{
+	border : 5px solid #FF8C00;
+	font-size : 20px;
+}
+
+.thresto
+{
+	border : 5px solid #006400;
+	font-size : 20px;
+}
+
+.thbar
+{
+	border : 5px solid #483D8B;
+	font-size : 20px;
+}
+
+.tdtapas
+{
+
+	border : 5px solid #FF8C00;
+	padding : 10px;
+}
+
+.trtapas
+{
+	border : 5px solid #FF8C00;
+}
+
+.tdresto
+{
+	border : 5px solid #006400;
+	padding : 10px;
+}
+
+.trresto
+{
+	border : 5px solid #006400;
+}
+
+.tdbar
+{
+	border : 5px solid #483D8B;
+	padding : 10px;
+}
+
+.trbar
+{
+	border : 5px solid #483D8B;
+}
+
+.tdtitre
+{
+	text-align : center;
+	width : 100px;
+}
+
+#restaurant
+{
+	border : 10px solid #006400;
+	margin-top : 50px;
+	text-align: justify;
+	font-family : Arial;
+	color : #006400;
+}
+
+#bar
+{
+	border : 10px solid #483D8B;
+	margin-top : 50px;
+	text-align: justify;
+	font-family : Arial;
+	color : #483D8B;
+}
+
+.image
+{
+	width : 500px;
+	height : 300px;
+}
+
+#captapas
+{
+	text-align : center;
+	color : #FF8C00;
+	font-family : Arial;
+	padding-bottom : 10px;
+	font-size : 30px;
+}
+
+#capresto
+{
+	text-align : center;
+	color : #006400;
+	font-family : Arial;
+	padding-bottom : 10px;
+	font-size : 30px;
+}
+
+
+#capbar
+{
+	text-align : center;
+	color : #483D8B;
+	font-family : Arial;
+	padding-bottom : 10px;
+	font-size : 30px;
+}
+
+#footer
+{
+	margin-top : 50px;
+}
+
